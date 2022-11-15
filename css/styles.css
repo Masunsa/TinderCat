@@ -131,12 +131,20 @@ margin-bottom: 1rem;
   padding: 3% 2%;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 1028px) {
 
   .text-center{
     width: 100%;
   }
 
+  .title-image{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
 
+  #title{
+    text-align: center;
+  }
 
 }
