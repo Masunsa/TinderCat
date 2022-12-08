@@ -131,7 +131,30 @@ margin-bottom: 1rem;
   padding: 3% 2%;
 }
 
-@media (max-width: 1028px) {
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+
+}
+
+.cta-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icons{
+  padding: 1rem;
+}
+
+@media (max-width: 900px) {
 
   .text-center{
     width: 100%;
